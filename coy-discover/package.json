@@ -1,0 +1,23 @@
+{
+  "name": "coy-discover",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Swipe-based Discover tab for Coy — Next.js (App Router) with a JSON-file backend.",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test tests/store.test.js tests/api.test.js",
+    "reset": "node scripts/reset.js",
+    "avatars": "node scripts/generate-avatars.js"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "next": "^15.5.9",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}

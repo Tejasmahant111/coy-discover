@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Placeholder photo for Krish">
+  <defs>
+    <linearGradient id="bg" gradientTransform="rotate(86 .5 .5)">
+      <stop offset="0" stop-color="#ff9a8b"/>
+      <stop offset="1" stop-color="#ff6a88"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <circle cx="125" cy="90" r="230" fill="url(#glow)"/>
+  <circle cx="537.5" cy="610" r="180" fill="#ff99ac" opacity=".35"/>
+  <g fill="#fff" fill-opacity=".82">
+    <circle cx="300" cy="250" r="96"/>
+    <path d="M96 640c0-140 92-262 204-262s204 122 204 262z"/>
+  </g>
+  <text x="300" y="282" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="#ff6a88" fill-opacity=".9">K</text>
+</svg>

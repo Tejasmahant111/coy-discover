@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Placeholder photo for Aditya">
+  <defs>
+    <linearGradient id="bg" gradientTransform="rotate(-165 .5 .5)">
+      <stop offset="0" stop-color="#e0c3fc"/>
+      <stop offset="1" stop-color="#8ec5fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <circle cx="-26" cy="-42" r="230" fill="url(#glow)"/>
+  <circle cx="613" cy="654" r="180" fill="#7aa5e8" opacity=".35"/>
+  <g fill="#fff" fill-opacity=".82">
+    <circle cx="300" cy="250" r="96"/>
+    <path d="M96 640c0-140 92-262 204-262s204 122 204 262z"/>
+  </g>
+  <text x="300" y="282" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="#8ec5fc" fill-opacity=".9">A</text>
+</svg>

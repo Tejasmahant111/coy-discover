@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.vercel/
+*.log
+.DS_Store
+
+# Runtime state (swipes + matches). Created automatically from the seed.
+data/db.json
+data/db.json.tmp*
